@@ -1,0 +1,5 @@
+#### Fractalize ####
+
+I just committed a little repository containing a random Fractal making program. I was thinking about giving the planets a little more flair, so craters, atmospheric banding and continents. Continents on water logged worlds like our own have coastlines that follow fractal patterns, so I thought why not just make a random linear fractal. I am considering how to use this, possibly using Inkscape or just having it procedurally generate the continents.
+
+This uses numpy to support vector arithmetic and calculations and pygame to present the generated image. So far it could be used to fractalize any set of edges, and crinkle them into a simulated coastline. I am considering making it a bit more general and allowing it to take its own fractal functions instead of the inbuilt one. Feel free to comment.
