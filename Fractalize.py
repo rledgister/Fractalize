@@ -58,7 +58,6 @@ class Fractalize(pg.sprite.Sprite):
 		pg.draw.lines(self.image, (0, 0, 255), 0, points, 3)
 
 	def update(self):
-		print self.rect
 		self.fract()
 		if len(self.edges) > self.numedges:
 			self.numedges = len(self.edges)
